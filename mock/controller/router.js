@@ -78,12 +78,6 @@ const data = [
             meta: { title: '常规图标' },
           },
           {
-            path: 'remixIcon',
-            name: 'RemixIcon',
-            component: '@/views/vab/icon/remixIcon',
-            meta: { title: '小清新图标' },
-          },
-          {
             path: 'colorfulIcon',
             name: 'ColorfulIcon',
             component: '@/views/vab/icon/colorfulIcon',
@@ -129,12 +123,6 @@ const data = [
         name: 'Tree',
         component: '@/views/vab/tree/index',
         meta: { title: '树', permissions: ['admin'] },
-      },
-      {
-        path: 'card',
-        name: 'Card',
-        component: '@/views/vab/card/index',
-        meta: { title: '卡片', permissions: ['admin'] },
       },
       {
         path: 'verify',
@@ -211,12 +199,6 @@ const data = [
         name: 'Lodash',
         component: '@/views/vab/lodash/index',
         meta: { title: 'lodash', permissions: ['admin'] },
-      },
-      {
-        path: 'imgComparison',
-        name: 'ImgComparison',
-        component: '@/views/vab/imgComparison/index',
-        meta: { title: '图像拖拽比对', permissions: ['admin'] },
       },
       {
         path: 'smallComponents',

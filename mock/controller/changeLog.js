@@ -219,6 +219,19 @@ const data = [
     content: '完成首页重构，跟进echarts 5.0',
     timestamp: '2020-12-7',
   },
+  {
+    content: '更新sass版本至最新',
+    timestamp: '2021-1-7',
+  },
+  {
+    content: '更新vue-echarts版本至最新,options变更为option',
+    timestamp: '2021-2-23',
+  },
+  {
+    content:
+      '开源版品牌名升级为vue-admin-beautiful-pro，付费版vue2.x品牌升级为Admin Pro，付费版vue3.x品牌名升级为Admin Plus',
+    timestamp: '最近更新',
+  },
 ]
 
 module.exports = [
