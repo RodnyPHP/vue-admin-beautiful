@@ -1,5 +1,5 @@
 /**
- * @author https://vue-admin-beautiful.com （不想保留author可删除）
+ * @author https://github.com/zxwk1998/vue-admin-better （不想保留author可删除）
  * @description cli配置
  */
 
@@ -26,7 +26,7 @@ const WebpackBar = require('webpackbar')
 const dayjs = require('dayjs')
 const date = dayjs().format('YYYY_M_D')
 const time = dayjs().format('YYYY-M-D HH:mm:ss')
-process.env.VUE_APP_TITLE = title || 'vue-admin-beautiful'
+process.env.VUE_APP_TITLE = title || 'vue-admin-better'
 process.env.VUE_APP_AUTHOR = author || 'https://vue-admin-beautiful.com'
 process.env.VUE_APP_UPDATE_TIME = time
 process.env.VUE_APP_VERSION = version

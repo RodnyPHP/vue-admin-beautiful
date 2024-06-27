@@ -1,7 +1,7 @@
 {
   "name": "vue-admin-better",
-  "version": "2.5.0",
-  "author": "vue-admin-better",
+  "version": "2.5.5",
+  "author": "zxwk1998",
   "participants": [],
   "homepage": "https://chu1204505056.gitee.io/vue-admin-better",
   "scripts": {
@@ -12,7 +12,7 @@
     "serve:mac": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build:mac": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
-    "lint:eslint": "eslint {src,mock,library}/**/*.{vue,js,ts} --fix",
+    "lint:eslint": "eslint {src,mock,library}/**/*.{vue,js} --fix",
     "lint:prettier": "prettier {src,mock,library}/**/*.{html,vue,css,sass,scss,js,ts,md} --write",
     "clear": "rimraf node_modules&&npm install  --registry=--registry=https://registry.npmmirror.com",
     "update": "ncu -u --reject webpack,eslint-plugin-prettier,@vue/eslint-config-prettier,prettier,layouts,sass-loader,sass,screenfull,eslint,chalk,vue,vue-template-compiler,vue-router,vuex,@vue/cli-plugin-babel,@vue/cli-plugin-eslint,@vue/cli-service,eslint-plugin-vue --registry=https://registry.npmmirror.com&&pnpm i",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuzhixin/vue-admin-better.git"
+    "url": "git+https://github.com/zxwk1998/vue-admin-better.git"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "axios": "^1.7.2",
-    "caniuse-lite": "^1.0.30001627",
+    "caniuse-lite": "^1.0.30001638",
     "clipboard": "^2.0.11",
     "core-js": "^3.37.1",
     "dayjs": "^1.11.11",
@@ -51,16 +51,15 @@
     "sortablejs": "^1.15.2",
     "vab-icon": "file:vab-icon",
     "vue": "~2.7.14",
-    "vue-echarts": "6.7.2",
+    "vue-echarts": "6.7.3",
     "vue-router": "^3.6.5",
     "vue-template-compiler": "~2.7.14",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.15",
-    "@vue/cli-plugin-eslint": "^4.5.15",
-    "@vue/cli-service": "^4.5.15",
-    "@vue/composition-api": "^1.7.2",
+    "@vue/cli-plugin-babel": "^4.5.19",
+    "@vue/cli-plugin-eslint": "^4.5.19",
+    "@vue/cli-service": "^4.5.19",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "body-parser": "^1.20.2",
@@ -70,7 +69,7 @@
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-vue": "^9.1.1",
     "image-webpack-loader": "^8.1.0",
-    "lint-staged": "^15.2.5",
+    "lint-staged": "^15.2.7",
     "prettier": "^2.8.8",
     "sass": "~1.32.13",
     "sass-loader": "^10.1.1",
